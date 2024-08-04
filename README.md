@@ -1,6 +1,6 @@
-<div align="center"><h1 style="font-family: courier;" align="center">BigFDM</h1></div>
+<div align="center"><h1 style="font-family: courier;" align="center">BigPAM</h1></div>
 
-<div align="center"><img src="media/side1.jpg" width="100%"></div>
+<div align="center"><img src="media/PAMonblack.jpg" width="100%"></div>
 <div align="center"><i>Open Source Large Scale 3D Printer</i></div>
 
 Premises
