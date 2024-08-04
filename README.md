@@ -3,6 +3,24 @@
 <div align="center"><img src="media/PAMonblack.jpg" width="100%"></div>
 <div align="center"><i>Open Source Large Scale 3D Printer</i></div>
 
+OVERVIEW
+--
+BigPAM (The Big Platform for Additive Manufacturing) is a modern, Klipper / BTT driven take on the wonderful "BigFDM" from Daniele Ingrassia. The original BigFDM machine has incomplete specs / BOM, and relied heavily on custom fab PCBs for stepper drivers and logic. The team at 3D Print Pittsburgh has taken the base frame and concept from BigFDM and given it a modern overhaul. Our version features some improved CAD brackets for certain items like the Z belt, Y pulleys, and even the belt drive gears on the z axis. We also created a completely updated extruder mount designed for a BondTech LGX / LGX pro and mosquito magnum + combo hot end. This combination is capable of pushing 75mm^3/s, drasticaly improving print times and helping to match the melt performance to the monstrous size of this machine.
+
+On PAM, we utilized DIN rail mounted to the electronics plate to provide an easy way to mount various electronics. We drive everything from two 24v power supplies. On the DIN rail, we use a BTT Manta M8P + CB1 combo, and two TMC5160T plus drivers for the larger spec'd steppers on Y and Z. We also mount a USB hub to support various USB accessories, including a nozzle camera, touch screen interface running KlipperScreen, and a main camera for AI spaghetti detection (optional). We've included a stack light in the back to really give PAM that next level industrial feel as well ;)
+
+We pretty much took the base and made a bunch of modifications in order to help improve in certain areas along the way. This repo is going to serve as a collection of all of our modifications and ideally a more robust central hub for information related to the project. Long term goals include mapping out hardware in the CAD model, reworking the BOM to more modern equipment and updated electronics, and uploading every small modified file we either created or utilized in the process.
+
+DISCLAIMER
+--
+As of current, the only thing changed about this repo is this README file. Keep an eye out here and as time goes on, we'll be updating with our modifications!
+
+-----
+
+**OG README BELOW**
+
+-----
+
 Premises
 --
 We dream in a future of freedom, where open source hardware and [Fab Labs](https://fablabs.io/) enable people to fully understand how to make things they need, and where decentralized local production is customized to impact the surrounding community. Believing that empowering the user with knowledge about how to make machines, BigFDM wants to give to the world a powerful open source tool, to 3D print any large scale object you may need. And, together with [LaserDuo](http://laserduo.com/), this is one of the first steps in developing other machines sharing the same philosophy.
